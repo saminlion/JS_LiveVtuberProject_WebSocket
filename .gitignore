@@ -1,0 +1,39 @@
+# Node.js
+/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 환경 설정
+.env
+.env.local
+.env.*.local
+/history
+
+# Google TTS 키
+livevtuberproj-76241a712b9a.json
+
+# 생성된 오디오 및 립싱크
+/public/audio/
+*.wav
+*.json
+
+# IDE & OS 관련
+.vscode/
+.idea/
+.DS_Store
+
+# Java 관련 (원래 있던 내용 유지)
+*.class
+*.log
+*.ctxt
+.mtj.tmp/
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+replay_pid*
