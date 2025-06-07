@@ -12,10 +12,10 @@ const path = require("path");
 require("dotenv").config();
 
 // ===== 설정 =====
-const PORT_WS = 8080;
-const PORT_OSC = 9000;
-const PORT_HTTP = 3000;
-const AUDIO_DIR = "public/audio";
+const PORT_WS = process.env.PORT_WS || 8080;
+const PORT_OSC = process.env.PORT_OSC || 9000;
+const PORT_HTTP = process.env.PORT_HTTP || 3000;
+const AUDIO_DIR = process.env.AUDIO_DIR || "public/audio";
 
 // ===== Express 서버 (TTS 오디오 제공) =====
 const app = express();
